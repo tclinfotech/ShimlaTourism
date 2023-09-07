@@ -1,1 +1,1 @@
-# shimla.github.io
+# shimla
