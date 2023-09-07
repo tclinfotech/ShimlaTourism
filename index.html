@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Enquiry Form</legend>
+            Name :<input type="text" required autofocus=""  placeholder="Enter Data" maxlength="20"> <br>
+            Name :<input type="text" value="TCL Infotech" disabled readonly><br>
+            Address:<textarea name=address rows="5" cols="10"></textarea><br>
+            Gender: <input type=radio checked="" value="m" name="Gender">Male<br>
+                    <input type=radio value="m" name="Gender">Female<br>
+            Country
+            <select>
+                <option>Please Select Country</option>
+                <optgroup label="Asia">
+                    <option>India</option>
+                    <option>China</option>
+                </optgroup>
+                <option>USA </option>
+            </select><br>
+            Hobbies:
+            <input type=checkbox name="abc[]" checked="">Dancing &ensp;
+            <input type="checkbox" name="abc[]">Singing<br>
+            Upload:
+            <input type="file" name="fff"><br>
+            <input type=submit value="Send"><br>
+
+            Color: <input type="color" name=color value="#111213"><br>
+            Email <input type="email" name="email"><br>
+            Password <input type="password" name="pass"><br>
+            Age <input type="number" name="age" min=1 max=20 value="11"><br>
+            Date <input type=date name=ff><br>
+            Date/Time <input type="date" time=local name=""> <br>
+            Time <input type=time name=””><br>
+            Month <input type=month name=”d”><br>
+            Week <input type=”week” name=”f”><br>
+            Range <input type=range name=”g”><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+    <form>
+        course
+        <input type="text" name=course autofocus="" list=course />
+        <datalist id="course">
+            <option value=html></option>
+            <option value=PHP></option>
+            <option value=css></option>
+        </datalist>
+        <select >
+            <option>Java</option>
+            <option>PHP</option>
+        </select>
+        <details style="font-family: calibri">
+            <summary style="color: green;">Web Development</summary>
+            <p>
+                Sdfsdfsdfsdfsdfsdf sdf sfsfsd sf<br>
+                S dfssf sf<br>
+                Sdf sfsdf sfSdfsdfsdfsdfsdfsdf sdf sfsfsd sf<br>
+            </p>
+            
+
+            
+
+        </details>
+        
+        
+        <details>
+            <summary> Duration </summary>
+            <p>2.5 months </p>
+            <details>
+                <summary> time </summary>
+                <p> 10am </p>
+            </details>
+        </details>
+
+    </form>
+
+    <video controls="" preload="" width=500 height=200 muted="" loop=””>
+        <source src=a.mp4 type="video/mp4">
+        <source src=a1.ogv type="video/ogv">
+        <source src=a.webm type="video/webm">
+    </video>
+    <audio controls="" preload="" autoplay="" muted="">
+        <source src=a.mp3 type=audio/mp3>
+        <source src=a.ogg type=audio/ogg>
+        <source src=a.wav type=audio/wav>
+    </audio>
+    <iframe src="asd.html" width=300px height=200px>
+    </iframe>
+
+
+
+
+</body>
+</html>
